@@ -1,0 +1,18 @@
+/* In your styles.css or a similar stylesheet */
+.Toastify__toast-container {
+    position: absolute;
+    width: auto;
+    max-width: 300px;
+    margin: auto;
+    left: 0%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .custom-toast {
+    background: #fff !important;
+    color: #333 !important;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+  }
